@@ -20,3 +20,26 @@
 //     }
 //   }
 // }
+
+//factorial
+
+// let pr = prompt("give your number");
+
+// if (pr === null) {
+//   console.log("cancelled");
+// } else {
+//   let ans = Number(pr);
+//   if (isNaN(ans)) {
+//     console.log("invalid input");
+//   } else {
+//     if (ans > 0) {
+//       var fact = 1;
+//       for (var i = 1; i <= ans; i++) {
+//         fact = fact * i;
+//       }
+//       console.log(fact);
+//     } else {
+//       console.log("should be positive ans more than 0");
+//     }
+//   }
+// }
