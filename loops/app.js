@@ -43,3 +43,27 @@
 //     }
 //   }
 // }
+
+//factor making
+
+// let pr = prompt("give your number");
+
+// if (pr === null) {
+//   console.log("cancelled");
+// } else {
+//   let ans = Number(pr);
+//   if (isNaN(ans)) {
+//     console.log("invalid input");
+//   } else {
+//     if (ans > 0) {
+//       for (var i = 1; i <= Math.floor(ans / 2); i++) {
+//         if (ans % i === 0) {
+//           console.log(i);
+//         }
+//       }
+//       console.log(ans);
+//     } else {
+//       console.log("should be positive ans more than 0");
+//     }
+//   }
+// }
