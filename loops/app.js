@@ -44,7 +44,7 @@
 //   }
 // }
 
-//factor making
+//factor of numbers
 
 // let pr = prompt("give your number");
 
