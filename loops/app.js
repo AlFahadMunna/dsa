@@ -67,3 +67,32 @@
 //     }
 //   }
 // }
+
+// prime numbers
+
+// let pr = prompt("give your number");
+
+// if (pr === null) {
+//   console.log("cancelled");
+// } else {
+//   let ans = Number(pr);
+//   if (isNaN(ans)) {
+//     console.log("invalid input");
+//   } else {
+//     if (ans > 0) {
+//       console.log(isPrime(ans));
+//     } else {
+//       console.log("should be positive ans more than 0");
+//     }
+//   }
+// }
+
+// function isPrime(n) {
+//   if (n <= 1) return false;
+//   if (n == 2) return true;
+//   if (n % 2 == 0) return false;
+//   for (let i = 3; i <= Math.floor(Math.sqrt(n)); i += 2) {
+//     if (n % i == 0) return false;
+//   }
+//   return true;
+// }
