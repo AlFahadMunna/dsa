@@ -146,3 +146,36 @@
 //     }
 //   }
 // }
+
+//strong number
+// let pr = prompt("give your number");
+
+// if (pr === null) {
+//   console.log("cancelled");
+// } else {
+//   let n = Number(pr);
+//   if (isNaN(n)) {
+//     console.log("invalid input");
+//   } else {
+//     if (n > 0) {
+//       let sum = 0;
+//       let copy = n;
+//       while (n > 0) {
+//         let rem = n % 10;
+//         let fact = 1;
+//         for (i = 1; i <= rem; i++) {
+//           fact = fact * i;
+//         }
+//         sum = sum + fact;
+//         n = Math.floor(n / 10);
+//       }
+//       if (copy === sum) {
+//         console.log("strong");
+//       } else {
+//         console.log("not strong");
+//       }
+//     } else {
+//       console.log("should be positive ans more than 0");
+//     }
+//   }
+// }
