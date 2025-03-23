@@ -96,3 +96,28 @@
 //   }
 //   return true;
 // }
+
+// sum of numbers
+
+// let pr = prompt("give your number");
+
+// if (pr === null) {
+//   console.log("cancelled");
+// } else {
+//   let n = Number(pr);
+//   if (isNaN(n)) {
+//     console.log("invalid input");
+//   } else {
+//     if (n > 0) {
+//       let sum = 0;
+//       while (n > 0) {
+//         let rem = n % 10;
+//         sum = sum + rem;
+//         n = Math.floor(n / 10);
+//       }
+//       console.log(sum);
+//     } else {
+//       console.log("should be positive ans more than 0");
+//     }
+//   }
+// }
