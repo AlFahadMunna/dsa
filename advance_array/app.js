@@ -56,5 +56,42 @@
 // }
 // console.log(arr);
 
+// marge two sorted array
+
+// let arr1 =[2,5,6]
+// let arr2=[1,3,4,8]
+
+// let marge = new Array(arr1.length+arr2.length)
+
+// let i =j=k=0;
+// while (i<arr1.length&&j<arr2.length){
+//     if (arr1[i]<arr2[j]){
+//         marge[k++]= arr1[i++]
+//     }else{
+//         marge[k++]= arr2[j++]
+//     }
+// }
+// while(j<arr2.length){
+//     marge[k++]=arr2[j++]
+// }
+// while(i<arr1.length){
+//     marge[k++]=arr1[i++]
+// }
+// console.log(marge);
+
+
+// best time to buy and sell stocks
+// var maxProfit = function(prices) {
+//     let minPrice = Infinity
+//     let maxProfit = 0;
+//     for(let price of prices){
+//         if(price <minPrice){
+//             minPrice = price
+//         } else {
+//             maxProfit = Math.max(maxProfit,price - minPrice)
+//         }
+//     }
+//     return maxProfit
+// };
 
 
