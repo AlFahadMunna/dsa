@@ -5,8 +5,7 @@
 // }
 // recur(5)
 
-
-// Backtracking 
+// Backtracking
 // function sum(n) {
 //   if (n == 1) return 1;
 //   return n + sum(n - 1);
@@ -45,3 +44,12 @@
 //     second = third
 //     process.stdout.write(third+" ")
 // }
+
+// Fibonacci of nth numbers sum
+let n = 7;
+function fibonacci(n) {
+  if (n == 0 || n == 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+console.log(fibonacci(n));
