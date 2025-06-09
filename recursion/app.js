@@ -46,10 +46,27 @@
 // }
 
 // Fibonacci of nth numbers sum
-let n = 7;
-function fibonacci(n) {
-  if (n == 0 || n == 1) return n;
-  return fibonacci(n - 1) + fibonacci(n - 2);
-}
+// let n = 7;
+// function fibonacci(n) {
+//   if (n == 0 || n == 1) return n;
+//   return fibonacci(n - 1) + fibonacci(n - 2);
+// }
 
-console.log(fibonacci(n));
+// console.log(fibonacci(n));
+
+// Uclidian math problem
+
+// let a = 32,
+//   b = 20;
+
+// while(a !=b){
+//   if(a>b) a =a-b;
+//   else b= b-a;
+// }
+// console.log(a);
+// function gcb(a, b) {
+//   if (a == b) return a;
+//   if (a > b) return gcb(a - b, b);
+//   return gcb(b, b - a);
+// }
+// console.log(gcb(a, b));
